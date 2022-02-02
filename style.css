@@ -27,14 +27,11 @@ h3 {
 }
 
 h1 {
-
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-
+  font-size: 1.8rem;
 }
 
 p {
@@ -65,10 +62,10 @@ a {
   border-radius: 5px;
   display: inline-block;
   margin-top: 12px;
+}
 
 .container {
-  width: 500px;
-
+  width: 800px;
   margin: 0 auto;
   text-align: center;
 }
@@ -99,9 +96,7 @@ li {
 
 .projects {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
   text-align: left;
   gap: 1rem;
 }
@@ -126,10 +121,6 @@ li {
 .project__img {
   border-radius: 5px;
   width: 100%;
-
-  height: 100%;
-  object-fit: cover;
-
 }
 
 @media (max-width: 960px) {
